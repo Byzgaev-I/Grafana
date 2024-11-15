@@ -4,7 +4,7 @@
 
 ### Обязательные задания
 
-**Задание 1** 
+### Задание 1 
 
 1) Используя директорию help внутри этого домашнего задания, запустите связку prometheus-grafana.  
 2) Зайдите в веб-интерфейс grafana, используя авторизационные данные, указанные в манифесте docker-compose.  
@@ -13,7 +13,7 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/2.png)
 
-**Задание 2** 
+### Задание 2 
 
 Изучите самостоятельно ресурсы:
 - PromQL tutorial for beginners and humans.
@@ -43,7 +43,7 @@ avg(node_load15{job="node-exporter"})
 ```
 
 
-**Задание 3** 
+### Задание 3
 
 1) Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 2) В качестве решения задания приведите скриншот вашей итоговой Dashboard.
@@ -57,8 +57,12 @@ avg(node_load15{job="node-exporter"})
 ![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/6.png) 
 
 
-**Задание 4**
+### Задание 4
 
+Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
+В качестве решения задания приведите листинг этого файла.  
+
+Ссылка на Dashboard в json файл [New dashboar1111 - Grafana.json](https://github.com/Byzgaev-I/Grafana/blob/main/New%20dashboar1111%20-%20Grafana.json)
 
 
 
