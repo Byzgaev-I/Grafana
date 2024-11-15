@@ -13,3 +13,20 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/2.png)
 
+**Задание 2** 
+
+Изучите самостоятельно ресурсы:
+- PromQL tutorial for beginners and humans.
+- Understanding Machine CPU usage.
+- Introduction to PromQL, the Prometheus query language.
+
+  Создайте Dashboard и в ней создайте Panels:
+
+- утилизация CPU для nodeexporter (в процентах, 100-idle);
+- CPULA 1/5/15;
+- количество свободной оперативной памяти;
+- количество места на файловой системе.
+Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
+
+![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/3.png) 
+
