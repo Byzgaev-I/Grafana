@@ -41,3 +41,64 @@ avg(node_load1{job="node-exporter"})
 avg(node_load5{job="node-exporter"})
 avg(node_load15{job="node-exporter"})
 ```
+
+
+**Задание 3** 
+
+1) Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
+2) В качестве решения задания приведите скриншот вашей итоговой Dashboard.
+
+Настроил алертинг.  
+Алерты настроил чтобы отправлялись в телеграм.   
+Грузанул специально комп, чтобы спровоцировать отправку алерта.  
+
+![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/4.png)
+
+![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/6.png) 
+
+
+**Задание 4**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
