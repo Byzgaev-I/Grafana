@@ -30,3 +30,14 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/3.png) 
 
+```bash
+100 - avg(irate(node_cpu_seconds_total{job="node-exporter", mode="idle"}[1m])) * 100
+```
+
+-CPULA 1/5/15:
+
+```bash
+avg(node_load1{job="node-exporter"})
+avg(node_load5{job="node-exporter"})
+avg(node_load15{job="node-exporter"})
+```
