@@ -30,6 +30,8 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Grafana/blob/main/3.png) 
 
+утилизация CPU для nodeexporter (в процентах, 100-idle)
+
 ```bash
 100 - avg(irate(node_cpu_seconds_total{job="node-exporter", mode="idle"}[1m])) * 100
 ```
