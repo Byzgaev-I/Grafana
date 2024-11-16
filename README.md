@@ -53,7 +53,7 @@ node_memory_MemFree_bytes{job='nodeexporter'}
 **- количество места на файловой системе**
 
 ```bash
-количество места на файловой системе.
+node_filesystem_avail_bytes{job=~"nodeexporter",mountpoint="/",fstype!="rootfs"}
 ```
 
 
